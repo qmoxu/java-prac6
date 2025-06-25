@@ -36,7 +36,7 @@ jobs:
     - name: Upload JAR
       uses: actions/upload-artifact@v4
       with:
-        name: project-jar
+        name: blablaproj
         path: target/*.jar
 
   deploy:

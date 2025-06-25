@@ -11,11 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-#    - name: Set up
-#      uses: actions/setup-java@v4
-#      with:
-#        java-version: '17'
-#        distribution: 'temurin'
     - name: Run Checkstyle
       run: mvn checkstyle:check
 
@@ -24,11 +19,7 @@ jobs:
     needs: static-analysis
     steps:
     - uses: actions/checkout@v4
-#    - name: Set up
-#      uses: actions/setup-java@v4
-#      with:
-#        java-version: '17'
-#        distribution: 'temurin'
+
     - name: Build with Maven
       run: mvn clean package
     - name: Upload JAR

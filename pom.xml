@@ -65,7 +65,7 @@
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/qmoxu/automatization-prac6</url>
+            <url>https://maven.pkg.github.com/qmoxu/java-prac6</url>
         </repository>
     </distributionManagement>
 </project>

@@ -5,7 +5,7 @@
 <module name="Checker">
     <module name="TreeWalker">
         <module name="LeftCurly">
-            <property name="option" value="nl"/>
+            <property name="option" value="eol"/>
         </module>
         <module name="JavadocMethod"/>
     </module>

@@ -8,7 +8,8 @@ public final class Main {
      * The main method that prints a message to the console.
      * @param args Cli arguments.
      */
-    public static void main(final String[] args) {
+    public static void main(final String[] args)
+    {
         System.out.println("bla bla bla");
     }
 
